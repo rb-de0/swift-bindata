@@ -7,28 +7,11 @@ A simple tool that generates Swift byte array from any asset. Inspired by [go-bi
 
 ## Installation
 
-To install this tool, you need to build the source code or download the binary.
-
-### Build
+### Homebrew Tap
 
 ```bash
-$ git clone https://github.com/rb-de0/swift-bindata
-$ cd swift-bindata
-$ make build
-```
-
-### Run
-
-
-```bash
-$ .build/release/Run
-```
-
-or
-
-```bash
-$ cp .build/release/Run /usr/local/bin/swift-bindata
-$ swift-bindata
+# brew tap rb-de0/homebrew-tap
+# brew install swift-bindata
 ```
 
 ## Usage
@@ -55,7 +38,6 @@ struct Assets {
 
 ## Future Improvement
 
-- Homebrew support
 - Multiple asset directories support
 
 ## LICENSE
