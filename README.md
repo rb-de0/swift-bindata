@@ -10,8 +10,8 @@ A simple tool that generates Swift byte array from any asset. Inspired by [go-bi
 ### Homebrew Tap
 
 ```bash
-# brew tap rb-de0/homebrew-tap
-# brew install swift-bindata
+$ brew tap rb-de0/homebrew-tap
+$ brew install swift-bindata
 ```
 
 ## Usage
